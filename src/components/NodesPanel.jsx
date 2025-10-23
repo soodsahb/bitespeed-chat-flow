@@ -31,7 +31,7 @@ export default function NodesPanel() {
           e.dataTransfer.effectAllowed = 'move';
         }}
       >
-        <FaRegCommentDots size={22} style={{ color: '#1e6ca9', marginBottom: 10 }} />
+        <FaRegCommentDots size={12} style={{ color: '#1e6ca9', marginBottom: 10 }} />
         <div
           style={{
             fontSize: 22,
