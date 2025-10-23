@@ -1,4 +1,4 @@
-// SettingsPanel.jsx
+
 export default function SettingsPanel({ node, onChange }) {
   if (!node) return null;
   return (
@@ -12,7 +12,7 @@ export default function SettingsPanel({ node, onChange }) {
         background: '#fafafa',
         borderLeft: '1px solid #ddd',
         padding: 24,
-        zIndex: 100 // ensure higher than canvas
+        zIndex: 100 
       }}
       onMouseDown={(e) => e.stopPropagation()} // Prevent deselection on click
     >
