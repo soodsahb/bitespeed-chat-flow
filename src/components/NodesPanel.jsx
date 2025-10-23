@@ -34,7 +34,7 @@ export default function NodesPanel() {
         <FaRegCommentDots size={12} style={{ color: '#1e6ca9', marginBottom: 10 }} />
         <div
           style={{
-            fontSize: 22,
+            fontSize: 12,
             fontWeight: 500,
             color: '#282828',
             marginTop: 0
